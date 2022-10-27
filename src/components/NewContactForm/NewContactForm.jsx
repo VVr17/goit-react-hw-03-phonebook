@@ -42,7 +42,6 @@ export class NewContactForm extends Component {
     }
 
     this.props.onSubmit({ ...values });
-    document.querySelector('[name="name"]').focus();
     resetForm();
   };
 
